@@ -1,0 +1,19 @@
+{
+  "name": "sylex/mybooks",
+  "license": "mit",
+  "type": "projet",
+  "description": "mybooks",
+
+  "require": {
+    "silex/silex": "~2.0",
+    "doctrine/dbal": "~2.5",
+    "twig/twig": "~1.28",
+    "symfony/twig-bridge": "~2.8|3.0.*",
+    "symfony/asset": "~2.8|3.0.*",
+    "twbs/bootstrap": "^3.3"
+  },
+
+  "autoload": {
+    "psr-4": {"MyBooks\\": "src"}
+  }
+}
